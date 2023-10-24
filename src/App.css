@@ -1,0 +1,161 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url(https://media1.sacurrent.com/sacurrent/imager/20-san-antonio-breweries-you-should-support-with-your-beer-money/u/zoom/25078159/cactus_land.png?cb=1642780460);
+  background-size: cover;
+  color: rgb(228, 236, 242);
+}
+
+.card {
+  padding: 2em;
+}
+
+h1{
+  text-align: right;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.home-link {
+  position: fixed;  
+  top: 0px;        
+  right: 10px;       
+  border: 1px dotted white;
+  background: #b9dc74;
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  color: white; 
+  z-index: 1000; 
+  transition: background-color 0.3s; 
+}
+
+.home-link:hover {
+  background: #555; /* Background color on hover */
+}
+
+
+.box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  bottom: 0;
+  bottom: 0;
+}
+
+.container {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+
+.sidebar {
+  flex-basis: 200px; 
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #a1c76d;
+  padding: 10px;
+  color: #f3eaea;
+  height: calc(100vh - 4rem); 
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  position: fixed; 
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 220px; 
+}
+
+
+.sidebar button {
+  background-color: #555;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.sidebar button:hover {
+  background-color: #777;
+}
+
+.brewery-list {
+  list-style-type: none;
+  padding: 0; 
+  margin-left: 30px;
+}
+
+.brewery-item {
+  display: flex; 
+  justify-content: space-between; 
+  padding: 10px 0; 
+  border-bottom: 1px solid #ccc; 
+}
+
+.brewery-name, .brewery-type, .brewery-detail {
+  flex: 1; 
+  padding: 0 10px; 
+  text-align: center; 
+  color:#1a0302;
+}
+
+
