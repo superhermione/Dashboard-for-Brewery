@@ -2,7 +2,7 @@
 
 Submitted by: **Xinrui Hou**
 
-This web app: **This application fetch data from the Single Brewery API and projects 20 breweries in different locations. User can filter brewery by type on the nav-bar. The chart is generated to show the amount of breweries.**
+This web app: **This application fetches data from the Single Brewery API and projects 20 breweries in different locations. User can filter brewery by type on the nav-bar. The chart is generated to show the amount of breweries.**
 
 Time spent: **5** hours spent in total
 
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='../assets/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./src/assets/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## License
 
